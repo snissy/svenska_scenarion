@@ -1,0 +1,84 @@
+.signIn-view{
+    position: relative;
+    top: 40px;
+    left:+50%;
+
+    height: 0;
+    width: 0;
+
+    visibility: hidden;
+    opacity: 0;
+
+    transition-property: left, opacity;
+}
+.signIn-view.active {
+    visibility: visible;
+    opacity:1;
+
+    height: 270px;
+    width: 290px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    font-size: 15px;
+    top: 40px;
+    left:0;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+.signIn-field {
+    height: 80px;
+    margin-bottom: 10px;
+}
+.signIn-span {
+    margin: 0 4px;
+}
+.spanUnderline {
+    text-decoration: underline;
+}
+.spanUnderline:hover{
+    cursor: pointer;
+}
+.spanUnderline:active {
+    color: #808080;
+}
+.signIn-button {
+
+    display: block;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: black;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 25px;
+}
+.signIn-button:hover{
+    cursor: pointer;
+}
+.signIn-button:active {
+    background-color: #535353;
+}
+.signIn-newUser {
+    display: flex;
+    justify-content: center;
+}
+.signIn-inputField{
+    width: 100%;
+    height:40px;
+    border: black solid 2px;
+    border-radius: 2px;
+    padding: 0 8px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+.signIn-title {
+     margin-top: 10px;
+ }

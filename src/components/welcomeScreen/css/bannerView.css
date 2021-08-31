@@ -1,0 +1,47 @@
+.welcome-topBanner {
+    height: 65px;
+    line-height: 65px;
+
+    border-bottom: 2px solid black;
+    display: flex;
+
+}
+.banner{
+    display: flex;
+    flex-shrink: 0;
+
+    width:inherit;
+    position: relative;
+}
+
+.placeHolder-1{
+    animation: bannerMove1 60s linear infinite;
+}
+
+@keyframes bannerMove1{
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+.placeHolder-2{
+    animation: bannerMove2 60s 30s linear infinite;
+}
+
+@keyframes bannerMove2{
+    0% {
+        transform: translateX(-200%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+.welcome-bannerParagraph {
+    white-space: nowrap;
+    margin: 0 2px;
+    font-size: 20px;
+}

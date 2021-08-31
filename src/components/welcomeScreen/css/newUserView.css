@@ -1,0 +1,5 @@
+.newUserView{
+    height: 400px !important;
+    transition: all ease 0.75s;
+    transition-property: left, opacity;
+}

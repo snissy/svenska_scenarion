@@ -1,11 +1,16 @@
-import './css/App.css';
-import './css/welcomeView.css'
-import WelcomeView from "./views/welcomeView";
+import './App.css';
+import './components/welcomeScreen/css/welcomeView.css'
+import './components/welcomeScreen/css/bannerView.css'
+import './components/welcomeScreen/css/signInView.css'
+import './components/welcomeScreen/css/newUserView.css'
+import WelcomePresenter from "./components/welcomeScreen/presenters/welcomePresenter";
+
+//TODO Find a better way of importing css files. This doesn't seems to be optimal
 
 function App() {
   return (
     <div className="App">
-      <WelcomeView/>
+      <WelcomePresenter/>
     </div>
   );
 }

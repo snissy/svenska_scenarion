@@ -1,0 +1,10 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: helvetica, serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

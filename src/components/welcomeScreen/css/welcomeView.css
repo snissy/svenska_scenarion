@@ -1,0 +1,57 @@
+.WelcomeView {
+    height: 100%;
+    width: 100%;
+}
+
+.welcome-topDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background-color: #e78b6e;
+    width: 100%;
+    height: 210px;
+    position: relative;
+    top: 0;
+    overflow: hidden;
+
+}
+.welcome-mainTitle {
+    height: 100%;
+    padding: 0 10px;
+    font-size:55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.welcomeBottomView{
+
+    box-sizing: border-box;
+    background-color: #e78b6e;
+    width: 100%;
+    height: 100px;
+
+    position: absolute;
+    bottom: 0;
+
+    padding: 15px 10px;
+    overflow: hidden;
+
+    font-size: 10px;
+    font-weight: lighter;
+
+
+}
+
+.welcome-companyTitle {
+    margin-bottom: 0.75em;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+}
+.welcome-companyContact {
+    margin-bottom: 0.75em;
+}
+
+
+
