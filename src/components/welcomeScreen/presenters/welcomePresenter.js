@@ -12,8 +12,11 @@ function WelcomePresenter(props) {
     return (
         <div className="WelcomeView">
             <WelcomeTopView/>
-            <SignInView hidden = {!newUser} newUser = {()=> {setNewUser(true)}}/>
-            <NewUserView hidden ={newUser} goback = {()=> {setNewUser(false)}} />
+            <div className={"activeView"}>
+                {/*TODO this should be like a div in it self. Like this i active area should be treated accordingly */}
+                <SignInView hidden = {!newUser} newUser = {()=> {setNewUser(true)}}/>
+                <NewUserView hidden ={newUser} goback = {()=> {setNewUser(false)}} />
+            </div>
             <WelcomeBottomView/>
         </div>
     );
